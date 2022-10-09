@@ -6,6 +6,12 @@ USE praktisi;
 
 
 #data aflah
+INSERT INTO mahasiswa 
+VALUE ('', 'Aflah Alifu Na Mappatajang Rahman', 'Jalan Kalibaru Barat IV No.23 CILINCING', 'Sistem Informasi');
+
+UPDATE mahasiswa
+SET address = 'Jalan Kalibaru Barat IV No.23 Cilincing'
+WHERE full_name LIKE 'Aflah%'
 
 
 #data fadilah
